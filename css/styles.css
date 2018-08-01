@@ -1,0 +1,54 @@
+body {
+  margin: 0 5% 5% 5%;
+  transition: all 300ms;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+  float:left;
+  width: 65%;
+  margin-bottom: 8%;
+}
+
+#sidebar {
+  box-sizing: border-box;
+  padding: 0 15px 0 15px ;
+  width: 30%;
+  float: right;
+  background-color: #ddd;
+}
+
+img {
+  /* height: 300px; */
+  width:45%;
+  /* clip: rect(0px,60px,200px,0px); */
+}
+
+#header {
+  width: 100%;
+}
+.entry {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-left:15px;
+  border-radius:10px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  width: 20%;
+  position: absolute;
+  top: -35px;
+  left: 7%;
+}
+
+h1 {
+  position: absolute;
+  transform: translateY(-70px);
+  right:7%;
+  color:white;
+  text-shadow: 2px 2px 1px #000;
+}
+a {
+  color: black;
+}
