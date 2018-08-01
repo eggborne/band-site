@@ -12,7 +12,8 @@ body {
 
 #sidebar {
   box-sizing: border-box;
-  padding: 0 15px 0 15px ;
+  border: 2px solid black;
+  padding: 0 15px 0 15px;
   width: 30%;
   float: right;
   background-color: #ddd;
@@ -20,6 +21,7 @@ body {
 
 img {
   /* height: 300px; */
+  padding: 8px;
   width:45%;
   /* clip: rect(0px,60px,200px,0px); */
 }
